@@ -19,8 +19,7 @@
 │   ├── 03_retention_analysis.ipynb# 留存分析
 │   └── 04_rfm_analysis.ipynb      # RFM 用户分层
 ├── sql/                   # SQL 练习、复习卡、刷题记录
-├── reports/               # 三章分析报告（含图表）
-└── docs/                  # 学习路线与投递记录
+└─ reports/               # 三章分析报告（含图表）
 ```
 
 ## 核心发现
@@ -60,11 +59,7 @@ pip install pandas pymysql sqlalchemy matplotlib
 
 # 3. 在项目根目录创建 config.ini（已加入 .gitignore，不会提交）：
 #    [mysql]
-#    password = 你的本地密码
+#    password = 本地密码
 
 # 4. 依次运行 notebooks/ 下 01 → 04 笔记本
 ```
-
-## 关于我
-
-计算机科学与技术专业大三在读（985），求职方向：经营分析 / 商业分析 / 数据运营实习生。可每周实习 4-5 天、持续 3 个月以上、尽快到岗。

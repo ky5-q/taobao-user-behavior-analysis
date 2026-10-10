@@ -1,0 +1,21 @@
+# 本地配置（含数据库密码，禁止提交）
+config.ini
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 个人学习管理文件（本地保留，不进仓库）
+docs/
+sql/牛客刷题记录.md
+sql/lesson01_cheatsheet.md
+sql/lesson02_cheatsheet.md
+sql/lesson03_cheatsheet.md
+学习计划.md
